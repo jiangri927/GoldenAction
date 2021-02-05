@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewVotePopup" customModule="The_Golden_Action_Awards">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vee-Cc-mdu">
+                    <rect key="frame" x="16" y="46" width="288" height="228"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input the amount of votes yoy would like to submit" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhd-Xf-jYd">
+                            <rect key="frame" x="8" y="23" width="272" height="46.5"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLh-fB-rsD">
+                            <rect key="frame" x="64" y="99" width="30" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="bLh-fB-rsD" secondAttribute="height" multiplier="1:1" id="DmS-QP-V5m"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="-">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUX-cT-gPJ">
+                            <rect key="frame" x="194" y="99" width="30" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="BUX-cT-gPJ" secondAttribute="height" multiplier="1:1" id="4ak-pf-tuW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="+">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbf-2I-ZYd">
+                            <rect key="frame" x="80" y="170" width="128" height="35"/>
+                            <color key="backgroundColor" red="0.97647058819999999" green="0.76078431369999999" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="hJi-f7-dMM"/>
+                            </constraints>
+                            <state key="normal" title="VOTE">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Nt-bo-0F5">
+                            <rect key="frame" x="114" y="94" width="60" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="1Qh-aV-B2t"/>
+                                <constraint firstAttribute="height" constant="40" id="1RM-CY-0yA"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Bhd-Xf-jYd" firstAttribute="top" secondItem="Vee-Cc-mdu" secondAttribute="top" constant="23" id="4x0-CE-ypE"/>
+                        <constraint firstItem="bLh-fB-rsD" firstAttribute="centerY" secondItem="3Nt-bo-0F5" secondAttribute="centerY" id="ATB-N4-4F5"/>
+                        <constraint firstItem="Rbf-2I-ZYd" firstAttribute="leading" secondItem="Vee-Cc-mdu" secondAttribute="leading" constant="80" id="BM2-uS-zM0"/>
+                        <constraint firstAttribute="width" secondItem="Vee-Cc-mdu" secondAttribute="height" multiplier="24:19" id="GYL-Bm-J8q"/>
+                        <constraint firstAttribute="trailing" secondItem="Rbf-2I-ZYd" secondAttribute="trailing" constant="80" id="UUR-xC-lN7"/>
+                        <constraint firstItem="BUX-cT-gPJ" firstAttribute="leading" secondItem="3Nt-bo-0F5" secondAttribute="trailing" constant="20" id="Upa-aa-YDK"/>
+                        <constraint firstAttribute="bottom" secondItem="Rbf-2I-ZYd" secondAttribute="bottom" constant="23" id="UuI-rL-C1f"/>
+                        <constraint firstItem="3Nt-bo-0F5" firstAttribute="top" secondItem="Bhd-Xf-jYd" secondAttribute="bottom" constant="24.5" id="bgt-1F-s4M"/>
+                        <constraint firstItem="3Nt-bo-0F5" firstAttribute="leading" secondItem="bLh-fB-rsD" secondAttribute="trailing" constant="20" id="ci2-Aw-WWK"/>
+                        <constraint firstItem="Bhd-Xf-jYd" firstAttribute="leading" secondItem="Vee-Cc-mdu" secondAttribute="leading" constant="8" id="dFF-bS-JXR"/>
+                        <constraint firstAttribute="trailing" secondItem="Bhd-Xf-jYd" secondAttribute="trailing" constant="8" id="jfX-CN-E38"/>
+                        <constraint firstItem="Rbf-2I-ZYd" firstAttribute="top" secondItem="3Nt-bo-0F5" secondAttribute="bottom" constant="36" id="qL0-65-6DN"/>
+                        <constraint firstItem="3Nt-bo-0F5" firstAttribute="centerX" secondItem="Vee-Cc-mdu" secondAttribute="centerX" id="tDC-8Q-jGX"/>
+                        <constraint firstItem="BUX-cT-gPJ" firstAttribute="centerY" secondItem="3Nt-bo-0F5" secondAttribute="centerY" id="tzO-vw-w9f"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="0.49847495719178081" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Vee-Cc-mdu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="aGg-ja-3wW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vee-Cc-mdu" secondAttribute="trailing" constant="16" id="nw7-w9-nKC"/>
+                <constraint firstItem="Vee-Cc-mdu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="26" id="wyN-cw-mCo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnMinus" destination="bLh-fB-rsD" id="Yhx-Ot-YZC"/>
+                <outlet property="btnPlus" destination="BUX-cT-gPJ" id="gXG-vK-V1y"/>
+                <outlet property="btnSubmit" destination="Rbf-2I-ZYd" id="Wqk-Vt-EUG"/>
+                <outlet property="txt_input" destination="3Nt-bo-0F5" id="fU6-3F-gJI"/>
+                <outlet property="viewPopup" destination="Vee-Cc-mdu" id="VEB-4N-7FW"/>
+            </connections>
+            <point key="canvasLocation" x="138.75" y="104.5774647887324"/>
+        </view>
+    </objects>
+</document>

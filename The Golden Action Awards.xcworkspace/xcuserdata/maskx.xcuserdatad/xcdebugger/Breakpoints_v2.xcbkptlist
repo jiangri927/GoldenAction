@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Profile/ProfileTableViewController.swift"
+            timestampString = "588609600.535464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "ProfileTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/Awards/AwardDetail/AwardDetailTableViewController.swift"
+            timestampString = "588611128.819671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Model/DataModel/Nominations.swift"
+            timestampString = "590690113.574825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "869"
+            endingLineNumber = "869"
+            landmarkName = "Nominations"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static The_Golden_Action_Awards.Nominations.getAllCharityNomination(status: Swift.Bool, completion: (Swift.Optional&lt;Swift.Error&gt;, Swift.Array&lt;The_Golden_Action_Awards.Nominations&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/MacOS/UpworkProject/iOS/HTK/08.17/GoldenAwards_iOS/GoldenActioniOS/The%20Golden%20Action%20Awards/Model/DataModel/Nominations.swift"
+                  timestampString = "588780519.59593"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "869"
+                  endingLineNumber = "869"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static The_Golden_Action_Awards.Nominations.getAllCharityNomination(status: Swift.Bool, completion: (Swift.Optional&lt;Swift.Error&gt;, Swift.Array&lt;The_Golden_Action_Awards.Nominations&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Work/MacOS/UpworkProject/iOS/HTK/08.17/GoldenAwards_iOS/GoldenActioniOS/The%20Golden%20Action%20Awards/Model/DataModel/Nominations.swift"
+                  timestampString = "588780519.598341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "870"
+                  endingLineNumber = "870"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/Nominations/CreateNom/NewCreate/ConfirmCreateNominationViewController.swift"
+            timestampString = "591823193.1102999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "saveNomination()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Notification/NotifCells/NotificationTableViewCell.swift"
+            timestampString = "589475899.272809"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setSelected(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Notification/NotificationViewController.swift"
+            timestampString = "590690113.575379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "tapCell(recognizer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

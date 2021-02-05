@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AdminDonationsViewController.tableView(_:cellForRowAt:):AdminDonationsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "awards.finished">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AdminDonationsViewController.loadAllFinishedNominationFalse():AdminDonationsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nom.finished">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Person.saveCurrentPerson(uid:person:completion:):Person.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "person.address">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AdminDonationsViewController.loadAllFinishedNomination():AdminDonationsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "awards">
+            </PersistentString>
+            <PersistentString
+               value = "nom.finished">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

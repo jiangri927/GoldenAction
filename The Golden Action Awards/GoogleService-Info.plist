@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>322765220210-b42cib0c4d5sg1hop1d0v0athdjhl0ri.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.322765220210-b42cib0c4d5sg1hop1d0v0athdjhl0ri</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2mWIlSmJ2Lgk7MhHy8dNa6FlZ0Dv5sPY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>322765220210</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cyncarllc.The-Golden-Action-Awards</string>
+	<key>PROJECT_ID</key>
+	<string>golden-test-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>golden-test-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:322765220210:ios:08fc96aefc847a37</string>
+	<key>DATABASE_URL</key>
+	<string>https://golden-test-app-646fe.firebaseio.com</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+</dict>
+</plist>

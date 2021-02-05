@@ -1,0 +1,767 @@
+PODS:
+  - AFDateHelper (4.2.7)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.7.3)
+  - ALCameraViewController (3.0.3)
+  - AsyncDisplayKit (2.2):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2)
+  - AsyncDisplayKit/Core (2.2)
+  - AsyncDisplayKit/PINRemoteImage (2.2):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Bond (7.5.0):
+    - Differ (~> 1.3)
+    - ReactiveKit (~> 3.10)
+  - BoringSSL (10.0.6):
+    - BoringSSL/Implementation (= 10.0.6)
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Implementation (10.0.6):
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Interface (10.0.6)
+  - BWWalkthrough (3.0.0)
+  - Cache (5.2.0)
+  - CircleMenu (4.0.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - CropViewController (2.3.8)
+  - DGActivityIndicatorView (2.1.1)
+  - DGElasticPullToRefresh (1.1)
+  - Differ (1.4.3)
+  - DropDown (2.3.12)
+  - EasyPostApi (1.1.1)
+  - ENMBadgedBarButtonItem (3.0.1)
+  - EZSwipeController (0.6.1)
+  - Fabric (1.9.0)
+  - FaceAware (1.6.0)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookSDK (4.38.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit (= 4.38.0)
+    - FacebookSDK/MarketingKit (= 4.38.0)
+  - FacebookSDK/CoreKit (4.38.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit
+  - FacebookSDK/MarketingKit (4.38.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - FBSDKMarketingKit (4.38.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.38.1):
+    - FBSDKCoreKit
+  - Firebase/Auth (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.4)
+  - Firebase/Core (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.9.0):
+    - FirebaseCore (= 5.1.4)
+  - Firebase/Database (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - Firebase/DynamicLinks (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (= 3.1.0)
+  - Firebase/Firestore (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (= 0.13.4)
+  - Firebase/Messaging (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.1.2)
+  - Firebase/Storage (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.2)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.0.0)
+  - FirebaseAuth (5.0.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.4):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseDynamicLinks (3.1.0):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseAnalyticsInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+  - FirebaseFirestore (0.13.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - FirebaseFirestore/abseil-cpp (= 0.13.4)
+    - "gRPC-C++ (~> 0.0.3)"
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.20)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseFirestore/abseil-cpp (0.13.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - "gRPC-C++ (~> 0.0.3)"
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.20)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.1.2):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.0.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseUI (5.2.2):
+    - FirebaseUI/Anonymous (= 5.2.2)
+    - FirebaseUI/Auth (= 5.2.2)
+    - FirebaseUI/Database (= 5.2.2)
+    - FirebaseUI/Facebook (= 5.2.2)
+    - FirebaseUI/Firestore (= 5.2.2)
+    - FirebaseUI/Google (= 5.2.2)
+    - FirebaseUI/Phone (= 5.2.2)
+    - FirebaseUI/Storage (= 5.2.2)
+    - FirebaseUI/Twitter (= 5.2.2)
+  - FirebaseUI/Anonymous (5.2.2):
+    - FirebaseUI/Auth
+  - FirebaseUI/Auth (5.2.2):
+    - Firebase/Auth (~> 5.0)
+  - FirebaseUI/Database (5.2.2):
+    - Firebase/Database (~> 5.0)
+  - FirebaseUI/Facebook (5.2.2):
+    - FBSDKLoginKit (~> 4.0)
+    - FirebaseUI/Auth
+  - FirebaseUI/Firestore (5.2.2):
+    - Firebase/Firestore
+  - FirebaseUI/Google (5.2.2):
+    - FirebaseUI/Auth
+    - GoogleSignIn (~> 4.0)
+  - FirebaseUI/Phone (5.2.2):
+    - FirebaseUI/Auth
+  - FirebaseUI/Storage (5.2.2):
+    - Firebase/Storage (~> 5.0)
+    - SDWebImage (~> 4.0)
+  - FirebaseUI/Twitter (5.2.2):
+    - FirebaseUI/Auth
+    - TwitterKit (~> 3.0)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.2.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GoogleUtilities/AppDelegateSwizzler (5.3.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.0)"
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.0):
+    - GoogleUtilities/Logger
+  - gRPC (1.14.0):
+    - gRPC-RxLibrary (= 1.14.0)
+    - gRPC/Main (= 1.14.0)
+  - "gRPC-C++ (0.0.3)":
+    - "gRPC-C++/Implementation (= 0.0.3)"
+    - "gRPC-C++/Interface (= 0.0.3)"
+  - "gRPC-C++/Implementation (0.0.3)":
+    - "gRPC-C++/Interface (= 0.0.3)"
+    - gRPC-Core (= 1.14.0)
+    - nanopb (~> 0.3)
+  - "gRPC-C++/Interface (0.0.3)"
+  - gRPC-Core (1.14.0):
+    - gRPC-Core/Implementation (= 1.14.0)
+    - gRPC-Core/Interface (= 1.14.0)
+  - gRPC-Core/Implementation (1.14.0):
+    - BoringSSL (~> 10.0)
+    - gRPC-Core/Interface (= 1.14.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.14.0)
+  - gRPC-ProtoRPC (1.14.0):
+    - gRPC-ProtoRPC/Main (= 1.14.0)
+  - gRPC-ProtoRPC/Main (1.14.0):
+    - gRPC (= 1.14.0)
+    - gRPC-RxLibrary (= 1.14.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.14.0)
+  - gRPC/Main (1.14.0):
+    - gRPC-Core (= 1.14.0)
+    - gRPC-RxLibrary (= 1.14.0)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - Hue (3.0.1)
+  - ImagePicker (3.1.0)
+  - iOSDropDown (0.2.7)
+  - IQKeyboardManager (6.4.0)
+  - JSSAlertView (4.2.0)
+  - leveldb-library (1.20)
+  - LinearProgressBarMaterial (1.3)
+  - LoremIpsum (1.0.0)
+  - lottie-ios (3.0.3)
+  - MaterialComponents/AnimationTiming (70.0.0)
+  - MaterialComponents/BottomSheet (70.0.0):
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/Buttons (70.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ButtonThemer (70.0.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+  - "MaterialComponents/Buttons+ColorThemer (70.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+ShapeThemer (70.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Buttons+TypographyThemer (70.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Cards (70.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowLayer
+  - "MaterialComponents/Cards+ColorThemer (70.0.0)":
+    - MaterialComponents/Cards
+    - MaterialComponents/schemes/Color
+  - MaterialComponents/Chips (70.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/TextFields
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/Chips+ColorThemer (70.0.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Chips+TypographyThemer (70.0.0)":
+    - MaterialComponents/Chips
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Ink (70.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/LibraryInfo (70.0.0)
+  - MaterialComponents/MaskedTransition (70.0.0):
+    - MotionAnimator (~> 2.0)
+    - MotionInterchange (~> 1.0)
+    - MotionTransitioning (~> 5.0)
+  - MaterialComponents/PageControl (70.0.0):
+    - MDFInternationalization
+  - MaterialComponents/Palettes (70.0.0)
+  - MaterialComponents/private/Application (70.0.0)
+  - MaterialComponents/private/Icons/Base (70.0.0)
+  - MaterialComponents/private/Icons/ic_check_circle (70.0.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (70.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (70.0.0)
+  - MaterialComponents/private/ShapeLibrary (70.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/private/Shapes (70.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/schemes/Color (70.0.0)
+  - MaterialComponents/schemes/Shape (70.0.0):
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/schemes/Typography (70.0.0)
+  - MaterialComponents/ShadowElevations (70.0.0)
+  - MaterialComponents/ShadowLayer (70.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/TextFields (70.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/TextFields+ColorThemer (70.0.0)":
+    - MaterialComponents/TextFields
+    - MaterialComponents/Themes
+  - "MaterialComponents/TextFields+TypographyThemer (70.0.0)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/TextFields
+  - MaterialComponents/Themes (70.0.0):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Typography (70.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - MotionTransitioning (5.0.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NMessenger (1.0.80):
+    - AsyncDisplayKit (= 2.2)
+  - Nuke (7.4.2)
+  - NYAlertViewController (1.3.0)
+  - paper-onboarding (5.0.0)
+  - PhoneNumberKit (2.5.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.5.0)
+    - PhoneNumberKit/UIKit (= 2.5.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.5.0)
+  - PhoneNumberKit/UIKit (2.5.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - Popover (1.2.0)
+  - PromiseKit (6.5.0):
+    - PromiseKit/CorePromise (= 6.5.0)
+    - PromiseKit/Foundation (= 6.5.0)
+    - PromiseKit/UIKit (= 6.5.0)
+  - PromiseKit/CorePromise (6.5.0)
+  - PromiseKit/Foundation (6.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.0):
+    - PromiseKit/CorePromise
+  - Protobuf (3.6.1)
+  - RAMAnimatedTabBarController (4.0.0)
+  - RAMReel (4.0.0)
+  - ReactiveKit (3.13.0)
+  - SAConfettiView (0.1.8)
+  - SCLAlertView (0.8)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SearchTextField (1.2.2)
+  - SideMenu (5.0.1)
+  - Spruce (2.0.0)
+  - Stripe (15.0.1)
+  - SwiftCron (0.4.3)
+  - SwiftEventBus (2.2.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftPhotoGallery (3.3.1)
+  - SwiftyContacts (3.0.11):
+    - SwiftyContacts/Core (= 3.0.11)
+  - SwiftyContacts/Core (3.0.11)
+  - SwiftyStoreKit (0.13.3)
+  - Toast-Swift (3.0.1)
+  - Toucan (1.0.0)
+  - TwicketSegmentedControl (0.1.2)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - AFDateHelper (~> 4.2.2)
+  - AFNetworking
+  - Alamofire (~> 4.4)
+  - ALCameraViewController
+  - Bond
+  - BWWalkthrough
+  - Cache
+  - CircleMenu
+  - Crashlytics
+  - CropViewController
+  - DGActivityIndicatorView
+  - DGElasticPullToRefresh
+  - DropDown
+  - EasyPostApi (~> 1.0)
+  - ENMBadgedBarButtonItem (~> 3.0.1)
+  - EZSwipeController
+  - Fabric
+  - FaceAware
+  - FacebookLogin
+  - FacebookSDK
+  - FacebookShare
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/Firestore
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FirebaseUI (~> 5.0)
+  - GoogleSignIn
+  - Hue
+  - ImagePicker
+  - iOSDropDown
+  - IQKeyboardManager
+  - JSSAlertView
+  - LinearProgressBarMaterial
+  - LoremIpsum (~> 1.0)
+  - lottie-ios
+  - MaterialComponents/AnimationTiming
+  - MaterialComponents/BottomSheet
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+ButtonThemer"
+  - "MaterialComponents/Buttons+ColorThemer"
+  - "MaterialComponents/Buttons+TypographyThemer"
+  - MaterialComponents/Cards
+  - "MaterialComponents/Cards+ColorThemer"
+  - MaterialComponents/Chips
+  - "MaterialComponents/Chips+ColorThemer"
+  - "MaterialComponents/Chips+TypographyThemer"
+  - MaterialComponents/Ink
+  - MaterialComponents/LibraryInfo
+  - MaterialComponents/MaskedTransition
+  - MaterialComponents/PageControl
+  - MaterialComponents/Palettes
+  - MaterialComponents/schemes/Color
+  - MaterialComponents/schemes/Typography
+  - MaterialComponents/ShadowElevations
+  - MaterialComponents/TextFields
+  - "MaterialComponents/TextFields+ColorThemer"
+  - "MaterialComponents/TextFields+TypographyThemer"
+  - NMessenger
+  - Nuke (~> 7.0)
+  - NYAlertViewController
+  - paper-onboarding
+  - PhoneNumberKit (~> 2.1)
+  - Popover
+  - PromiseKit (~> 6.0)
+  - RAMAnimatedTabBarController
+  - RAMReel
+  - SAConfettiView
+  - SCLAlertView
+  - SDWebImage (~> 4.0)
+  - SearchTextField
+  - SideMenu
+  - Spruce
+  - Stripe
+  - SwiftCron
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `3.0.0`)
+  - SwiftKeychainWrapper
+  - SwiftPhotoGallery
+  - SwiftyContacts
+  - SwiftyStoreKit
+  - Toast-Swift (~> 3.0.1)
+  - Toucan
+  - TwicketSegmentedControl
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFDateHelper
+    - AFNetworking
+    - Alamofire
+    - ALCameraViewController
+    - AsyncDisplayKit
+    - Bolts
+    - Bond
+    - BoringSSL
+    - BWWalkthrough
+    - Cache
+    - CircleMenu
+    - Crashlytics
+    - CropViewController
+    - DGActivityIndicatorView
+    - DGElasticPullToRefresh
+    - Differ
+    - DropDown
+    - EasyPostApi
+    - ENMBadgedBarButtonItem
+    - EZSwipeController
+    - Fabric
+    - FaceAware
+    - FacebookCore
+    - FacebookLogin
+    - FacebookSDK
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseFirestore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - FirebaseUI
+    - GoogleAppMeasurement
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - gRPC
+    - "gRPC-C++"
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - Hue
+    - ImagePicker
+    - iOSDropDown
+    - IQKeyboardManager
+    - JSSAlertView
+    - leveldb-library
+    - LinearProgressBarMaterial
+    - LoremIpsum
+    - lottie-ios
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MotionAnimator
+    - MotionInterchange
+    - MotionTransitioning
+    - nanopb
+    - NMessenger
+    - Nuke
+    - NYAlertViewController
+    - paper-onboarding
+    - PhoneNumberKit
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Popover
+    - PromiseKit
+    - Protobuf
+    - RAMAnimatedTabBarController
+    - RAMReel
+    - ReactiveKit
+    - SAConfettiView
+    - SCLAlertView
+    - SDWebImage
+    - SearchTextField
+    - SideMenu
+    - Spruce
+    - Stripe
+    - SwiftCron
+    - SwiftKeychainWrapper
+    - SwiftPhotoGallery
+    - SwiftyContacts
+    - SwiftyStoreKit
+    - Toast-Swift
+    - Toucan
+    - TwicketSegmentedControl
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+SPEC CHECKSUMS:
+  AFDateHelper: 4ad66fb19503041fbba8a3018cb7ef9c71b2ff88
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
+  AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bond: 6abbc33a4cf88e65a0f8b1ba8276ac34584ad897
+  BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
+  BWWalkthrough: b86abce6aa2e4ce21e36a12a277fa6e89a5db075
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  CircleMenu: 49a0aa5567985ec9de4cf1faa5a5970c67096e24
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  CropViewController: 7be882b7d3fb3faef48a41924e80f689e9df2514
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Differ: 6c7477d6187e8c36d02ec342a3c321061b85a0ea
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  EasyPostApi: f12c5d657806d7470ee81acdebab431803c5fe22
+  ENMBadgedBarButtonItem: c716c5a605131b9099cba47cc5f210e836a0f2a5
+  EZSwipeController: 255b0f8aed31963b0236802c926e27dd006a2532
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FaceAware: 7708f7ac2e2521f101dd1462b351c5486eb0a590
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookSDK: 73f54b8b94e09b05647cdef0af147f470cd3edc6
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  FBSDKMarketingKit: e609f39d74ab273cf52e2f8b7e8829ed412b2827
+  FBSDKShareKit: 6ffe22f0a0618eb7424d4104ab0ef3ce9643d42a
+  Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseAnalyticsInterop: 31b00d2a916918327308b2dff47251eb96f9e4ad
+  FirebaseAuth: 504b198ceb3472dca5c65bb95544ea44cfc9439e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 2a84b6b325792a4319ef71ee18819dcba08d2fd7
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  FirebaseDynamicLinks: 33f349103fa71d463688b7671e6a60e00ac6a5af
+  FirebaseFirestore: eaf0b6244e9463e2429fe216666b641e4dec606b
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  FirebaseMessaging: d6feeb06218d2675b4149b0ada925a6b707a74cf
+  FirebaseStorage: fd82e5e5c474897e19972b34b22ac0f589dce04e
+  FirebaseUI: 09519bf436a055cd696bf68687d624423150e4c0
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleSignIn: 591e46382014e591269f862ba6e7bc0fbd793532
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  gRPC: 9d4c549f37c7cef22478634bac7a0405b6e3dbfb
+  "gRPC-C++": ee0b01db3122f0b6c2be28b5b11039f62fa15fe6
+  gRPC-Core: f4836515817c0eb479aeeb9cc27c91c4ba62a9f6
+  gRPC-ProtoRPC: 76f6053639a842e1fb45fa82aa598bf3f4d9f66f
+  gRPC-RxLibrary: 3c305f32155024b116b780f389323c73a28197e6
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  JSSAlertView: 84ec53a0cbcfaa25a09293751356afed09484023
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  LinearProgressBarMaterial: 84df3135c27a0fc5e0219da10ee98304de159b06
+  LoremIpsum: 9029c55d36501b2ee0b05cc9ecda11d3a0479160
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  MaterialComponents: 7c107af5ae6566de2f1ba94bde3db99d1b874bab
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NMessenger: ca6a89073ca40d3868cf45505f6f8318853afd40
+  Nuke: aee5c42001369902798f7b844611b8ae930ce333
+  NYAlertViewController: b93f82e2c1fc6d5e9485512ddbe7b481f463a074
+  paper-onboarding: a2e3a710fd27ac0b5635ec5490660e7ec09289b5
+  PhoneNumberKit: 32a1cd1e0aa9e950feb01886a22fd7386b8cf903
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  Popover: 28c1ac8e937ab2b3965bd2da7dd18324357abc41
+  PromiseKit: 54ed7e56768b7e8d29072afe9384101c64a2b7ff
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  RAMAnimatedTabBarController: 78f63fd6411958f269cc8af0a906002134d39bf5
+  RAMReel: 815addc9594886e6816b891a1559058f05ff9580
+  ReactiveKit: 4a938b0671b0b068232926a443da19d535a03023
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SearchTextField: a0992739d4b05dcbb40fb3a5cc6526bd991bdd23
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
+  Spruce: 0932495938ccc0b75add674a99bc46c9d0e39111
+  Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
+  SwiftCron: 4da0582a8961c781c616e8b5986e7bcb14f7a6d4
+  SwiftEventBus: 667baca2f107fa0c9c2068950298dbfd6a4111cc
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftPhotoGallery: 4b8eb285d41268bee6d49a37759cd07e5d1d3183
+  SwiftyContacts: 3b38d400d2480e8a2323194f3f8fcf6b317d8147
+  SwiftyStoreKit: 9ebd15971e28aa2989825fe8bc092eb5f75dd0b2
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  Toucan: 61867fb10948c02e9804280a95eb183e98eac97a
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: df986848edcf0c8e1005409fd19c8dfd9f767caa
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Cart/CartViewController.swift"
+            timestampString = "587048922.42902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "710"
+            endingLineNumber = "710"
+            landmarkName = "paymentAuthorizationViewController(_:didAuthorizePayment:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Golden_Action_Awards.CartViewController.paymentAuthorizationViewController(_: __C.PKPaymentAuthorizationViewController, didAuthorizePayment: __C.PKPayment, completion: (__C.PKPaymentAuthorizationStatus) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MyWorkSpace/Swift%20Projects/GoldenAwards/golden-test-app-irshad/The%20Golden%20Action%20Awards/Controller/NavBar/Cart/CartViewController.swift"
+                  timestampString = "587610215.9756759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "710"
+                  endingLineNumber = "710"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.STPToken&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in The_Golden_Action_Awards.CartViewController.paymentAuthorizationViewController(_: __C.PKPaymentAuthorizationViewController, didAuthorizePayment: __C.PKPayment, completion: (__C.PKPaymentAuthorizationStatus) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MyWorkSpace/Swift%20Projects/GoldenAwards/golden-test-app-irshad/The%20Golden%20Action%20Awards/Controller/NavBar/Cart/CartViewController.swift"
+                  timestampString = "587610215.977838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "712"
+                  endingLineNumber = "712"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Cart/CartViewController.swift"
+            timestampString = "587048922.429124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "712"
+            endingLineNumber = "712"
+            landmarkName = "paymentAuthorizationViewController(_:didAuthorizePayment:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Golden Action Awards/Controller/NavBar/Cart/CartViewController.swift"
+            timestampString = "587048922.429179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "722"
+            endingLineNumber = "722"
+            landmarkName = "paymentAuthorizationViewController(_:didAuthorizePayment:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.STPToken&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in The_Golden_Action_Awards.CartViewController.paymentAuthorizationViewController(_: __C.PKPaymentAuthorizationViewController, didAuthorizePayment: __C.PKPayment, completion: (__C.PKPaymentAuthorizationStatus) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MyWorkSpace/Swift%20Projects/GoldenAwards/golden-test-app-irshad/The%20Golden%20Action%20Awards/Controller/NavBar/Cart/CartViewController.swift"
+                  timestampString = "587610216.118489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "722"
+                  endingLineNumber = "722"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.STPToken&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in The_Golden_Action_Awards.CartViewController.paymentAuthorizationViewController(_: __C.PKPaymentAuthorizationViewController, didAuthorizePayment: __C.PKPayment, completion: (__C.PKPaymentAuthorizationStatus) -&gt; ()) -&gt; ()"
+                  moduleName = "The Golden Action Awards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MyWorkSpace/Swift%20Projects/GoldenAwards/golden-test-app-irshad/The%20Golden%20Action%20Awards/Controller/NavBar/Cart/CartViewController.swift"
+                  timestampString = "587610216.120151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "723"
+                  endingLineNumber = "723"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

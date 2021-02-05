@@ -1,0 +1,68 @@
+Nominees Table View Cell example
+
+// --------> Cell for Row at
+
+if indexPath.row < self.listings.count {
+let cell = tableView.dequeueReusableCell(withIdentifier: CellId.nominees_cell.id, for: indexPath) as! NomineesTableViewCell
+// Gesture for tapping on image to go to detail
+let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapSegue(recognizer:)))
+let nominee = self.nominees[indexPath.row]
+// Save Objects to cell for use
+// ex: cell.likeButton.tag = indexPath.row
+// ex in cell: cell.configureCell(studentListing: theListing)
+// Add Necessary Targets/Gestures
+// Gesture Example: cell.listingSlideshowView.addGestureRecognizer(gestureRecognizer)
+// Target Example: cell.contactButton.addTarget(self, action: #selector(contactTapped(_:)), for: .touchUpInside)
+return cell
+} else {
+// Put a cell that contains the logo of the application
+let cell = tableView.dequeueReusableCell(withIdentifier: "LogoCell", for: indexPath) as! LogoTableViewCell
+self.logoIndexPath = indexPath
+return cell
+}
+
+// ---------> Sections
+var numberOfSections = 0
+if self.listings != [] {
+tableView.separatorStyle = .singleLine
+numberOfSections = 1
+tableView.backgroundView = nil
+self.tableView.backgroundView = nil
+} else {
+let imageView = UIImageView.init(image: UIImage(named: "noListingsDisplay"))
+imageView.contentMode = UIViewContentMode.top
+imageView.frame = self.tableView.bounds
+self.tableView.backgroundView = imageView
+self.tableView.separatorStyle = .none
+}
+return numberOfSections
+
+
+// ---------> Cities with MsgPack
+/*Alamofire.request("https://golden-test-app.firebaseapp.com/location.msp").responseData { (response) in
+guard response.error == nil else {
+print(response.error?.localizedDescription)
+return
+}
+if let data = response.data {
+print(data)
+do {
+let decodedObj: Any? = try data.unpack()
+print(decodedObj)
+if let clusters = decodedObj as? [Any] {
+print(clusters.count)
+print(clusters)
+}
+print("object decoded")
+print("--------------->")
+print("--------------->")
+print("--------------->")
+print("--------------->")
+} catch {
+completion([], error)
+}
+} else {
+completion([], nil)
+}
+} */
+76b50d5f3ca14ae116a6eb298f08bbc1

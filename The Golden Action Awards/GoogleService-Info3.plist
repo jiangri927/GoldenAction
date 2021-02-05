@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>717221710606-dnlvu8kv4fljcu9hsva4i7ai39cfc2l5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.717221710606-dnlvu8kv4fljcu9hsva4i7ai39cfc2l5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDXXu1loILKqYXnyoxg1ldHmvsnsbuNH0I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>717221710606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.subcodevs.GoldenAction</string>
+	<key>PROJECT_ID</key>
+	<string>golden-action-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>golden-action-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:717221710606:ios:08fc96aefc847a37</string>
+	<key>DATABASE_URL</key>
+	<string>https://golden-action-dev.firebaseio.com</string>
+</dict>
+</plist>
